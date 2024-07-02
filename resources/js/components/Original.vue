@@ -1368,137 +1368,6 @@
                             </transition>
                         </div>
                         <!-- BEGIN: Notification -->
-
-                        <!-- BEGIN: Visitors -->
-                        <div
-                            class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 mt-2"
-                        >
-                            <div class="intro-y flex items-center h-10">
-                                <h2 class="text-lg font-medium truncate mr-5">
-                                    ผู้เข้าใช้บริการ
-                                </h2>
-                                <select
-                                    class="sm:ml-auto mt-3 sm:mt-0 sm:w-auto form-select box"
-                                >
-                                    <option value="daily">รายวัน</option>
-                                    <option value="monthly">รายเดือน</option>
-                                    <option value="yearly">รายปี</option>
-                                </select>
-                            </div>
-                            <div class="report-box-2 intro-y mt-5">
-                                <div class="box p-5">
-                                    <div class="flex items-center">
-                                        Realtime
-                                        <div class="dropdown ml-auto">
-                                            <a
-                                                class="dropdown-toggle w-5 h-5 block -mr-2"
-                                                href="javascript:;"
-                                                aria-expanded="false"
-                                                data-tw-toggle="dropdown"
-                                            >
-                                                <i
-                                                    data-lucide="more-vertical"
-                                                    class="w-5 h-5 text-slate-500"
-                                                ></i>
-                                            </a>
-                                            <div class="dropdown-menu w-40">
-                                                <ul class="dropdown-content">
-                                                    <li>
-                                                        <a
-                                                            href=""
-                                                            class="dropdown-item"
-                                                        >
-                                                            <i
-                                                                data-lucide="file-text"
-                                                                class="w-4 h-4 mr-2"
-                                                            ></i>
-                                                            Export
-                                                        </a>
-                                                    </li>
-                                                    <li>
-                                                        <a
-                                                            href=""
-                                                            class="dropdown-item"
-                                                        >
-                                                            <i
-                                                                data-lucide="settings"
-                                                                class="w-4 h-4 mr-2"
-                                                            ></i>
-                                                            Settings
-                                                        </a>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="text-2xl font-medium mt-2">
-                                        200
-                                    </div>
-                                    <div
-                                        class="border-b border-slate-200 flex pb-2 mt-4"
-                                    >
-                                        <div class="text-slate-500 text-xs">
-                                            Page views per second
-                                        </div>
-                                        <div
-                                            class="text-success flex text-xs font-medium tooltip cursor-pointer ml-auto"
-                                            title="49% Lower than last month"
-                                        >
-                                            49%
-                                            <i
-                                                data-lucide="chevron-up"
-                                                class="w-4 h-4 ml-0.5"
-                                            ></i>
-                                        </div>
-                                    </div>
-                                    <div class="mt-2 border-b broder-slate-200">
-                                        <div class="-mb-1.5 -ml-2.5">
-                                            <div class="h-[79px]">
-                                                <canvas
-                                                    id="report-bar-chart"
-                                                    ref="reportBar"
-                                                ></canvas>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="text-slate-500 text-xs border-b border-slate-200 flex mb-2 pb-2 mt-4"
-                                    >
-                                        <div>Type</div>
-                                        <div class="ml-auto">Users</div>
-                                    </div>
-                                    <div class="flex">
-                                        <div>นักเรียน</div>
-                                        <div class="ml-auto">46</div>
-                                    </div>
-                                    <div class="flex mt-1.5">
-                                        <div>นักศึกษา</div>
-                                        <div class="ml-auto">118</div>
-                                    </div>
-                                    <div class="flex mt-1.5">
-                                        <div>อาจารย์</div>
-                                        <div class="ml-auto">32</div>
-                                    </div>
-                                    <div class="flex mt-1.5">
-                                        <div>บุคลากร</div>
-                                        <div class="ml-auto">4</div>
-                                    </div>
-                                    <div
-                                        class="flex mt-3 text-gray-400 text-xs font-light"
-                                    >
-                                        <div># ข้อมูล ณ วันที่</div>
-                                        <div class="ml-auto">10 มิถุนายน 2567</div>
-                                    </div>
-                                    <button
-                                        class="btn btn-outline-secondary border-dashed w-full py-1 px-2 mt-4"
-                                    >
-                                        Real-Time Report
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- END: Visitors -->
-
                         <!-- BEGIN: General Report -->
                         <div
                             class="col-span-12 lg:col-span-8 xl:col-span-6 mt-2"
@@ -1507,7 +1376,7 @@
                                 class="intro-y block sm:flex items-center h-10"
                             >
                                 <h2 class="text-lg font-medium truncate mr-5">
-                                    ยืมหนังสือ
+                                    รายงานการยืมหนังสือ
                                 </h2>
                                 <select
                                     class="sm:ml-auto mt-3 sm:mt-0 sm:w-auto form-select box"
@@ -1665,7 +1534,131 @@
                             </div>
                         </div>
                         <!-- END: General Report -->
-                        
+                        <!-- BEGIN: Visitors -->
+                        <div
+                            class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 mt-2"
+                        >
+                            <div class="intro-y flex items-center h-10">
+                                <h2 class="text-lg font-medium truncate mr-5">
+                                    ผู้เข้าใช้บริการ
+                                </h2>
+                                <a href="" class="ml-auto text-primary truncate"
+                                    >Show More</a
+                                >
+                            </div>
+                            <div class="report-box-2 intro-y mt-5">
+                                <div class="box p-5">
+                                    <div class="flex items-center">
+                                        Realtime
+                                        <div class="dropdown ml-auto">
+                                            <a
+                                                class="dropdown-toggle w-5 h-5 block -mr-2"
+                                                href="javascript:;"
+                                                aria-expanded="false"
+                                                data-tw-toggle="dropdown"
+                                            >
+                                                <i
+                                                    data-lucide="more-vertical"
+                                                    class="w-5 h-5 text-slate-500"
+                                                ></i>
+                                            </a>
+                                            <div class="dropdown-menu w-40">
+                                                <ul class="dropdown-content">
+                                                    <li>
+                                                        <a
+                                                            href=""
+                                                            class="dropdown-item"
+                                                        >
+                                                            <i
+                                                                data-lucide="file-text"
+                                                                class="w-4 h-4 mr-2"
+                                                            ></i>
+                                                            Export
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a
+                                                            href=""
+                                                            class="dropdown-item"
+                                                        >
+                                                            <i
+                                                                data-lucide="settings"
+                                                                class="w-4 h-4 mr-2"
+                                                            ></i>
+                                                            Settings
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="text-2xl font-medium mt-2">
+                                        200
+                                    </div>
+                                    <div
+                                        class="border-b border-slate-200 flex pb-2 mt-4"
+                                    >
+                                        <div class="text-slate-500 text-xs">
+                                            Page views per second
+                                        </div>
+                                        <div
+                                            class="text-success flex text-xs font-medium tooltip cursor-pointer ml-auto"
+                                            title="49% Lower than last month"
+                                        >
+                                            49%
+                                            <i
+                                                data-lucide="chevron-up"
+                                                class="w-4 h-4 ml-0.5"
+                                            ></i>
+                                        </div>
+                                    </div>
+                                    <div class="mt-2 border-b broder-slate-200">
+                                        <div class="-mb-1.5 -ml-2.5">
+                                            <div class="h-[79px]">
+                                                <canvas
+                                                    id="report-bar-chart"
+                                                    ref="reportBar"
+                                                ></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="text-slate-500 text-xs border-b border-slate-200 flex mb-2 pb-2 mt-4"
+                                    >
+                                        <div>Type</div>
+                                        <div class="ml-auto">Users</div>
+                                    </div>
+                                    <div class="flex">
+                                        <div>นักเรียน</div>
+                                        <div class="ml-auto">46</div>
+                                    </div>
+                                    <div class="flex mt-1.5">
+                                        <div>นักศึกษา</div>
+                                        <div class="ml-auto">118</div>
+                                    </div>
+                                    <div class="flex mt-1.5">
+                                        <div>อาจารย์</div>
+                                        <div class="ml-auto">32</div>
+                                    </div>
+                                    <div class="flex mt-1.5">
+                                        <div>บุคลากร</div>
+                                        <div class="ml-auto">4</div>
+                                    </div>
+                                    <div
+                                        class="flex mt-3 text-gray-400 text-xs font-light"
+                                    >
+                                        <div># ข้อมูล ณ วันที่</div>
+                                        <div class="ml-auto">10 มิถุนายน 2567</div>
+                                    </div>
+                                    <button
+                                        class="btn btn-outline-secondary border-dashed w-full py-1 px-2 mt-4"
+                                    >
+                                        Real-Time Report
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- END: Visitors -->
                         <!-- BEGIN: Users By Age -->
                         <div
                             class="col-span-12 sm:col-span-6 lg:col-span-4 xl:col-span-3 mt-2 lg:mt-6 xl:mt-2"
@@ -1674,9 +1667,9 @@
                                 <h2 class="text-lg font-medium truncate mr-5">
                                     ประเภทสมาชิก
                                 </h2>
-                                <!-- <a href="" class="ml-auto text-primary truncate"
+                                <a href="" class="ml-auto text-primary truncate"
                                     >Show More</a
-                                > -->
+                                >
                             </div>
                             <div class="report-box-2 intro-y mt-5">
                                 <div class="box p-5">
@@ -1698,7 +1691,7 @@
                                                 aria-controls="active-users"
                                                 aria-selected="true"
                                             >
-                                                ประเภทผู้ใช้
+                                                กลุ่มสมาชิก
                                             </button>
                                         </li>
                                         <li
@@ -1714,7 +1707,7 @@
                                                 role="tab"
                                                 aria-selected="false"
                                             >
-                                                กลุ่มผู้ใช้
+                                                ประเภทผู้ใช้
                                             </button>
                                         </li>
                                     </ul>
@@ -1812,365 +1805,47 @@
                             </div>
                         </div>
                         <!-- END: Users By Age -->
-
-                        <!-- BEGIN: Weekly Top Products -->
-                       
+                        <!-- BEGIN: Official Store -->
                         <div class="col-span-12 lg:col-span-8 mt-6">
                             <div
                                 class="intro-y block sm:flex items-center h-10"
                             >
                                 <h2 class="text-lg font-medium truncate mr-5">
-                                    สืบค้นมากสุด (OPAC) 
+                                    Official Store
                                 </h2>
-                                <!-- <select
-                                    class="sm:ml-auto mt-3 sm:mt-0 sm:w-auto form-select box"
+                                <div
+                                    class="sm:ml-auto mt-3 sm:mt-0 relative text-slate-500"
                                 >
-                                    <option value="daily">รายวัน</option>
-                                    <option value="monthly">รายเดือน</option>
-                                    <option value="yearly">รายปี</option>
-                                </select> -->
-                                <!-- <div
-                                    class="flex items-center sm:ml-auto mt-3 sm:mt-0"
-                                >
-                                    <button
-                                        class="btn box flex items-center text-slate-600 dark:text-slate-300"
-                                    >
-                                        <i
-                                            data-lucide="file-text"
-                                            class="hidden sm:block w-4 h-4 mr-2"
-                                        ></i>
-                                        Export to Excel
-                                    </button>
-                                    <button
-                                        class="ml-3 btn box flex items-center text-slate-600 dark:text-slate-300"
-                                    >
-                                        <i
-                                            data-lucide="file-text"
-                                            class="hidden sm:block w-4 h-4 mr-2"
-                                        ></i>
-                                        Export to PDF
-                                    </button>
-                                </div> -->
+                                    <i
+                                        data-lucide="map-pin"
+                                        class="w-4 h-4 z-10 absolute my-auto inset-y-0 ml-3 left-0"
+                                    ></i>
+                                    <input
+                                        type="text"
+                                        class="form-control sm:w-56 box pl-10"
+                                        placeholder="Filter by city"
+                                    />
+                                </div>
                             </div>
-                            <div
-                                class="intro-y overflow-auto lg:overflow-visible mt-8 sm:mt-0"
-                            >
-                                <table class="table table-report sm:mt-2">
-                                    <thead>
-                                        <tr>
-                                            <th class="whitespace-nowrap">
-                                                IMAGES
-                                            </th>
-                                            <th class="whitespace-nowrap">
-                                                TITLE
-                                            </th>
-                                            <th
-                                                class="text-center whitespace-nowrap"
-                                            >
-                                                LANGUAGE
-                                            </th>
-                                            <th
-                                                class="text-center whitespace-nowrap"
-                                            >
-                                                STATUS
-                                            </th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr class="intro-x">
-                                            <td class="w-40">
-                                                <div class="flex">
-                                                    <div
-                                                        class="w-10 h-10 image-fit zoom-in"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="tooltip"                                                         
-                                                            title="Uploaded at 7 June 2020"
-                                                            :src="pic1"
-                                                        />
-                                                    </div>
-                                                    <!-- <div
-                                                        class="w-10 h-10 image-fit zoom-in -ml-5"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="tooltip rounded-full"
-                                                            src="dist/images/preview-5.jpg"
-                                                            title="Uploaded at 5 April 2022"
-                                                        />
-                                                    </div>
-                                                    <div
-                                                        class="w-10 h-10 image-fit zoom-in -ml-5"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="tooltip rounded-full"
-                                                            src="dist/images/preview-9.jpg"
-                                                            title="Uploaded at 14 July 2021"
-                                                        />
-                                                    </div> -->
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a
-                                                    href=""
-                                                    class="font-medium whitespace-nowrap"
-                                                    >จิตวิทยาการรู้คิด / พาสนา จุลรัตน์</a
-                                                >
-                                                <div
-                                                    class="text-slate-500 text-xs whitespace-nowrap mt-0.5"
-                                                >
-                                                b00163678
-                                                </div>
-                                            </td>
-                                            <td class="text-center">tha</td>
-                                            <td class="w-40">
-                                                <div
-                                                    class="flex items-center justify-center text-success"
-                                                >
-                                                    <i
-                                                        data-lucide="check-square"
-                                                        class="w-4 h-4 mr-2"
-                                                    ></i>
-                                                    Active
-                                                </div>
-                                            </td>
-                                            <!-- <td
-                                                class="table-report__action w-56"
-                                            >
-                                                <div
-                                                    class="flex justify-center items-center"
-                                                >
-                                                    <a
-                                                        class="flex items-center mr-3"
-                                                        href=""
-                                                    >
-                                                        <i
-                                                            data-lucide="check-square"
-                                                            class="w-4 h-4 mr-1"
-                                                        ></i>
-                                                        Edit
-                                                    </a>
-                                                    <a
-                                                        class="flex items-center text-danger"
-                                                        href=""
-                                                    >
-                                                        <i
-                                                            data-lucide="trash-2"
-                                                            class="w-4 h-4 mr-1"
-                                                        ></i>
-                                                        Delete
-                                                    </a>
-                                                </div>
-                                            </td> -->
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">
-                                                <div class="flex">
-                                                    <div
-                                                        class="w-10 h-10 image-fit zoom-in"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="tooltip"
-                                                            title="Uploaded at 16 September 2022"
-                                                            :src="pic2"
-                                                        />
-                                                    </div>                                                
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a
-                                                    href=""
-                                                    class="font-medium whitespace-nowrap"
-                                                    >เพราะมีชีวิตดีได้กว่าที่เป็น = Atomic habits / James Clear ; ประพาฬรัตน์ ยงมานิตชัย, แปล</a
-                                                >
-                                                <div
-                                                    class="text-slate-500 text-xs whitespace-nowrap mt-0.5"
-                                                >
-                                                b00166864
-                                                </div>
-                                            </td>
-                                            <td class="text-center">tha</td>
-                                            <td class="w-40">
-                                                <div
-                                                    class="flex items-center justify-center text-success"
-                                                >
-                                                    <i
-                                                        data-lucide="check-square"
-                                                        class="w-4 h-4 mr-2"
-                                                    ></i>
-                                                    Active
-                                                </div>
-                                            </td>                                          
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">
-                                                <div class="flex">
-                                                    <div
-                                                        class="w-10 h-10 image-fit zoom-in"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="tooltip"
-                                                            title="Uploaded at 4 April 2022"
-                                                            :src="pic3"
-                                                        />
-                                                    </div>                                                 
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a
-                                                    href=""
-                                                    class="font-medium whitespace-nowrap"
-                                                    >แคลคูลัสสำหรับผู้ไม่เก่งคณิตศาสตร์ : แคลคูลัสเชิงอนุพันธ์ / ปกรณ์ พลาหาญ, เอนก จันทรจรูญ</a
-                                                >
-                                                <div
-                                                    class="text-slate-500 text-xs whitespace-nowrap mt-0.5"
-                                                >
-                                                b00162388
-                                                </div>
-                                            </td>
-                                            <td class="text-center">tha</td>
-                                            <td class="w-40">
-                                                <div
-                                                    class="flex items-center justify-center text-success"
-                                                >
-                                                    <i
-                                                        data-lucide="check-square"
-                                                        class="w-4 h-4 mr-2"
-                                                    ></i>
-                                                    Active
-                                                </div>
-                                            </td>                                         
-                                        </tr>
-                                        <tr class="intro-x">
-                                            <td class="w-40">
-                                                <div class="flex">
-                                                    <div
-                                                        class="w-10 h-10 image-fit zoom-in"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="tooltip"
-                                                            title="Uploaded at 31 August 2022"
-                                                            :src="pic4"
-                                                        />
-                                                    </div>                                               
-                                                </div>
-                                            </td>
-                                            <td>
-                                                <a
-                                                    href=""
-                                                    class="font-medium whitespace-nowrap"
-                                                    >Verbes คำกริยา ภาษาฝรั่งเศส / ปาริชาติ ชุมสาย ณ อยุธยา</a
-                                                >
-                                                <div
-                                                    class="text-slate-500 text-xs whitespace-nowrap mt-0.5"
-                                                >
-                                                b00106884
-                                                </div>
-                                            </td>
-                                            <td class="text-center">tha</td>
-                                            <td class="w-40">
-                                                <div
-                                                    class="flex items-center justify-center text-success"
-                                                >
-                                                    <i
-                                                        data-lucide="check-square"
-                                                        class="w-4 h-4 mr-2"
-                                                    ></i>
-                                                    Active
-                                                </div>
-                                            </td>                                           
-                                        </tr>
-                                    </tbody>
-                                </table>
+                            <div class="intro-y box p-5 mt-12 sm:mt-5">
+                                <div>
+                                    250 Official stores in 21 countries, click
+                                    the marker to see location details.
+                                </div>
+                                <div
+                                    class="report-maps mt-5 bg-slate-200 rounded-md"
+                                    data-center="-6.2425342, 106.8626478"
+                                    data-sources="/dist/json/location.json"
+                                ></div>
                             </div>
-                            <!-- <div
-                                class="intro-y flex flex-wrap sm:flex-row sm:flex-nowrap items-center mt-3"
-                            >
-                                <nav class="w-full sm:w-auto sm:mr-auto">
-                                    <ul class="pagination">
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">
-                                                <i
-                                                    class="w-4 h-4"
-                                                    data-lucide="chevrons-left"
-                                                ></i>
-                                            </a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">
-                                                <i
-                                                    class="w-4 h-4"
-                                                    data-lucide="chevron-left"
-                                                ></i>
-                                            </a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#"
-                                                >...</a
-                                            >
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">1</a>
-                                        </li>
-                                        <li class="page-item active">
-                                            <a class="page-link" href="#">2</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">3</a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#"
-                                                >...</a
-                                            >
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">
-                                                <i
-                                                    class="w-4 h-4"
-                                                    data-lucide="chevron-right"
-                                                ></i>
-                                            </a>
-                                        </li>
-                                        <li class="page-item">
-                                            <a class="page-link" href="#">
-                                                <i
-                                                    class="w-4 h-4"
-                                                    data-lucide="chevrons-right"
-                                                ></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </nav>
-                                <select
-                                    class="w-20 form-select box mt-3 sm:mt-0"
-                                >
-                                    <option>10</option>
-                                    <option>25</option>
-                                    <option>35</option>
-                                    <option>50</option>
-                                </select>
-                            </div> -->
                         </div>
-                        <!-- END: Weekly Top Products -->
-                                            
+                        <!-- END: Official Store -->
                         <!-- BEGIN: Weekly Best Sellers -->
                         <div class="col-span-12 xl:col-span-4 mt-6">
                             <div class="intro-y flex items-center h-10">
                                 <h2 class="text-lg font-medium truncate mr-5">
-                                    ฐานข้อมูลออนไลน์
+                                    Weekly Best Sellers
                                 </h2>
-                                <select
-                                    class="sm:ml-auto mt-3 sm:mt-0 sm:w-auto form-select box"
-                                >
-                                    <option value="daily">รายวัน</option>
-                                    <option value="monthly">รายเดือน</option>
-                                    <option value="yearly">รายปี</option>
-                                </select>
                             </div>
                             <div class="mt-5">
                                 <div class="intro-y">
@@ -2182,23 +1857,23 @@
                                         >
                                             <img
                                                 alt="Midone - HTML Admin Template"
-                                                :src="pictu1"
+                                                src="dist/images/profile-1.jpg"
                                             />
                                         </div>
                                         <div class="ml-4 mr-auto">
                                             <div class="font-medium">
-                                                EBSCO Discovery Service
+                                                Leonardo DiCaprio
                                             </div>
                                             <div
                                                 class="text-slate-500 text-xs mt-0.5"
                                             >
-                                                (EDS) Plus Full Text
+                                                7 June 2020
                                             </div>
                                         </div>
                                         <div
                                             class="py-1 px-2 rounded-full text-xs bg-success text-white cursor-pointer font-medium"
                                         >
-                                            48
+                                            137 Sales
                                         </div>
                                     </div>
                                 </div>
@@ -2211,23 +1886,23 @@
                                         >
                                             <img
                                                 alt="Midone - HTML Admin Template"
-                                                :src="pictu2"
+                                                src="dist/images/profile-15.jpg"
                                             />
                                         </div>
                                         <div class="ml-4 mr-auto">
                                             <div class="font-medium">
-                                                IEEE Electronic Library
+                                                Angelina Jolie
                                             </div>
                                             <div
                                                 class="text-slate-500 text-xs mt-0.5"
                                             >
-                                                (IEL)
+                                                16 September 2022
                                             </div>
                                         </div>
                                         <div
                                             class="py-1 px-2 rounded-full text-xs bg-success text-white cursor-pointer font-medium"
                                         >
-                                            36
+                                            137 Sales
                                         </div>
                                     </div>
                                 </div>
@@ -2240,23 +1915,23 @@
                                         >
                                             <img
                                                 alt="Midone - HTML Admin Template"
-                                                :src="pictu3"
+                                                src="dist/images/profile-7.jpg"
                                             />
                                         </div>
                                         <div class="ml-4 mr-auto">
                                             <div class="font-medium">
-                                                SpringerLink
+                                                Christian Bale
                                             </div>
                                             <div
                                                 class="text-slate-500 text-xs mt-0.5"
                                             >
-                                                Journal
+                                                4 April 2022
                                             </div>
                                         </div>
                                         <div
                                             class="py-1 px-2 rounded-full text-xs bg-success text-white cursor-pointer font-medium"
                                         >
-                                            12
+                                            137 Sales
                                         </div>
                                     </div>
                                 </div>
@@ -2268,24 +1943,24 @@
                                             class="w-10 h-10 flex-none image-fit rounded-md overflow-hidden"
                                         >
                                             <img
-                                                alt="Midone - HTML Admin Template"                                              
-                                                :src="pictu4"
+                                                alt="Midone - HTML Admin Template"
+                                                src="dist/images/profile-1.jpg"
                                             />
                                         </div>
                                         <div class="ml-4 mr-auto">
                                             <div class="font-medium">
-                                                ScienceDirect
+                                                Al Pacino
                                             </div>
                                             <div
                                                 class="text-slate-500 text-xs mt-0.5"
                                             >
-                                                
+                                                31 August 2022
                                             </div>
                                         </div>
                                         <div
                                             class="py-1 px-2 rounded-full text-xs bg-success text-white cursor-pointer font-medium"
                                         >
-                                            5
+                                            137 Sales
                                         </div>
                                     </div>
                                 </div>
@@ -2297,9 +1972,77 @@
                             </div>
                         </div>
                         <!-- END: Weekly Best Sellers -->
-                        
+                        <!-- BEGIN: Ads 1 -->
+                        <div class="col-span-12 lg:col-span-6 mt-6">
+                            <div
+                                class="box p-8 relative overflow-hidden bg-primary intro-y"
+                            >
+                                <div
+                                    class="leading-[2.15rem] w-full sm:w-72 text-white text-xl -mt-3"
+                                >
+                                    Transact safely with Lender’s Fund Account
+                                    (RDL)
+                                </div>
+                                <div
+                                    class="w-full sm:w-72 leading-relaxed text-white/70 dark:text-slate-500 mt-3"
+                                >
+                                    Apply now, quick registration.
+                                </div>
+                                <button
+                                    class="btn w-32 bg-white dark:bg-darkmode-800 dark:text-white mt-6 sm:mt-10"
+                                >
+                                    Start Now
+                                </button>
+                                <img
+                                    class="hidden sm:block absolute top-0 right-0 w-2/5 -mt-3 mr-2"
+                                    alt="Midone - HTML Admin Template"
+                                    src="dist/images/woman-illustration.svg"
+                                />
+                            </div>
+                        </div>
+                        <!-- END: Ads 1 -->
+                        <!-- BEGIN: Ads 2 -->
+                        <div class="col-span-12 lg:col-span-6 mt-6">
+                            <div
+                                class="box p-8 relative overflow-hidden intro-y"
+                            >
+                                <div
+                                    class="leading-[2.15rem] w-full sm:w-52 text-primary dark:text-white text-xl -mt-3"
+                                >
+                                    Invite friends to get
+                                    <span class="font-medium">FREE</span>
+                                    bonuses!
+                                </div>
+                                <div
+                                    class="w-full sm:w-60 leading-relaxed text-slate-500 mt-2"
+                                >
+                                    Get a IDR 100,000 voucher by inviting your
+                                    friends to fund #BecomeMember
+                                </div>
+                                <div
+                                    class="w-48 relative mt-6 cursor-pointer tooltip"
+                                    title="Copy referral link"
+                                >
+                                    <input
+                                        type="text"
+                                        class="form-control"
+                                        value="https://dashboard.in"
+                                    />
+                                    <i
+                                        data-lucide="copy"
+                                        class="absolute right-0 top-0 bottom-0 my-auto mr-4 w-4 h-4"
+                                    ></i>
+                                </div>
+                                <img
+                                    class="hidden sm:block absolute top-0 right-0 w-1/2 mt-1 -mr-12"
+                                    alt="Midone - HTML Admin Template"
+                                    src="dist/images/phone-illustration.svg"
+                                />
+                            </div>
+                        </div>
+                        <!-- END: Ads 2 -->
                         <!-- BEGIN: Weekly Top Products -->
-                        <!-- <div class="col-span-12 mt-6">
+                        <div class="col-span-12 mt-6">
                             <div
                                 class="intro-y block sm:flex items-center h-10"
                             >
@@ -2781,7 +2524,7 @@
                                     <option>50</option>
                                 </select>
                             </div>
-                        </div> -->
+                        </div>
                         <!-- END: Weekly Top Products -->
                     </div>
                 </div>
@@ -2790,204 +2533,6 @@
                         <div
                             class="2xl:pl-6 grid grid-cols-12 gap-x-6 2xl:gap-x-0 gap-y-6"
                         >
-                            
-                            <!-- BEGIN: Recent Activities -->
-                            <div
-                                class="col-span-12 md:col-span-6 xl:col-span-4 2xl:col-span-12 mt-3"
-                            >
-                                <div class="intro-x flex items-center h-10">
-                                    <h2
-                                        class="text-lg font-medium truncate mr-5"
-                                    >
-                                        รับฟังเสียงผู้ใช้ (VOC)
-                                    </h2>
-                                    <a
-                                        href=""
-                                        class="ml-auto text-primary truncate"
-                                        >Show More</a
-                                    >
-                                </div>
-                                <div
-                                    class="mt-5 relative before:block before:absolute before:w-px before:h-[85%] before:bg-slate-200 before:dark:bg-darkmode-400 before:ml-5 before:mt-5"
-                                >
-                                    <div
-                                        class="intro-x relative flex items-center mb-3"
-                                    >
-                                        <div
-                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
-                                        >
-                                            <div
-                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
-                                            >
-                                                <img
-                                                    alt="Midone - HTML Admin Template"
-                                                    src="dist/images/profile-9.jpg"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
-                                        >
-                                            <div class="flex items-center">
-                                                <div class="font-medium">
-                                                    Tom Hanks
-                                                </div>
-                                                <div
-                                                    class="text-xs text-slate-500 ml-auto"
-                                                >
-                                                    07:00 PM
-                                                </div>
-                                            </div>
-                                            <div class="text-slate-500 mt-1">
-                                                Has joined the team
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="intro-x relative flex items-center mb-3"
-                                    >
-                                        <div
-                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
-                                        >
-                                            <div
-                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
-                                            >
-                                                <img
-                                                    alt="Midone - HTML Admin Template"
-                                                    src="dist/images/profile-2.jpg"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
-                                        >
-                                            <div class="flex items-center">
-                                                <div class="font-medium">
-                                                    Kevin Spacey
-                                                </div>
-                                                <div
-                                                    class="text-xs text-slate-500 ml-auto"
-                                                >
-                                                    07:00 PM
-                                                </div>
-                                            </div>
-                                            <div class="text-slate-500">
-                                                <div class="mt-1">
-                                                    Added 3 new photos
-                                                </div>
-                                                <div class="flex mt-2">
-                                                    <div
-                                                        class="tooltip w-8 h-8 image-fit mr-1 zoom-in"
-                                                        title="Samsung Galaxy S20 Ultra"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="rounded-md border border-white"
-                                                            src="dist/images/preview-14.jpg"
-                                                        />
-                                                    </div>
-                                                    <div
-                                                        class="tooltip w-8 h-8 image-fit mr-1 zoom-in"
-                                                        title="Sony A7 III"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="rounded-md border border-white"
-                                                            src="dist/images/preview-6.jpg"
-                                                        />
-                                                    </div>
-                                                    <div
-                                                        class="tooltip w-8 h-8 image-fit mr-1 zoom-in"
-                                                        title="Nike Tanjun"
-                                                    >
-                                                        <img
-                                                            alt="Midone - HTML Admin Template"
-                                                            class="rounded-md border border-white"
-                                                            src="dist/images/preview-3.jpg"
-                                                        />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="intro-x relative flex items-center mb-3"
-                                    >
-                                        <div
-                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
-                                        >
-                                            <div
-                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
-                                            >
-                                                <img
-                                                    alt="Midone - HTML Admin Template"
-                                                    src="dist/images/profile-9.jpg"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
-                                        >
-                                            <div class="flex items-center">
-                                                <div class="font-medium">
-                                                    Denzel Washington
-                                                </div>
-                                                <div
-                                                    class="text-xs text-slate-500 ml-auto"
-                                                >
-                                                    07:00 PM
-                                                </div>
-                                            </div>
-                                            <div class="text-slate-500 mt-1">
-                                                Has changed
-                                                <a class="text-primary" href=""
-                                                    >Oppo Find X2 Pro</a
-                                                >
-                                                price and description
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="intro-x relative flex items-center mb-3"
-                                    >
-                                        <div
-                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
-                                        >
-                                            <div
-                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
-                                            >
-                                                <img
-                                                    alt="Midone - HTML Admin Template"
-                                                    src="dist/images/profile-14.jpg"
-                                                />
-                                            </div>
-                                        </div>
-                                        <div
-                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
-                                        >
-                                            <div class="flex items-center">
-                                                <div class="font-medium">
-                                                    Angelina Jolie
-                                                </div>
-                                                <div
-                                                    class="text-xs text-slate-500 ml-auto"
-                                                >
-                                                    07:00 PM
-                                                </div>
-                                            </div>
-                                            <div class="text-slate-500 mt-1">
-                                                Has changed
-                                                <a class="text-primary" href=""
-                                                    >Sony A7 III</a
-                                                >
-                                                description
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- END: Recent Activities -->
-
                             <!-- BEGIN: Important Notes -->
                             <div
                                 class="col-span-12 md:col-span-6 xl:col-span-12 mt-3 2xl:mt-8"
@@ -2996,9 +2541,9 @@
                                     <h2
                                         class="text-lg font-medium truncate mr-auto"
                                     >
-                                        จองห้องออนไลน์ (Study Room)
+                                        Important Notes
                                     </h2>
-                                    <!-- <button
+                                    <button
                                         data-carousel="important-notes"
                                         data-target="prev"
                                         class="tiny-slider-navigator btn px-2 border-slate-300 text-slate-600 dark:text-slate-300 mr-2"
@@ -3017,7 +2562,7 @@
                                             data-lucide="chevron-right"
                                             class="w-4 h-4"
                                         ></i>
-                                    </button> -->
+                                    </button>
                                 </div>
                                 <div class="mt-5 intro-x">
                                     <div class="box zoom-in">
@@ -3147,9 +2692,209 @@
                                 </div>
                             </div>
                             <!-- END: Important Notes -->
-
+                            <!-- BEGIN: Recent Activities -->
+                            <div
+                                class="col-span-12 md:col-span-6 xl:col-span-4 2xl:col-span-12 mt-3"
+                            >
+                                <div class="intro-x flex items-center h-10">
+                                    <h2
+                                        class="text-lg font-medium truncate mr-5"
+                                    >
+                                        Recent Activities
+                                    </h2>
+                                    <a
+                                        href=""
+                                        class="ml-auto text-primary truncate"
+                                        >Show More</a
+                                    >
+                                </div>
+                                <div
+                                    class="mt-5 relative before:block before:absolute before:w-px before:h-[85%] before:bg-slate-200 before:dark:bg-darkmode-400 before:ml-5 before:mt-5"
+                                >
+                                    <div
+                                        class="intro-x relative flex items-center mb-3"
+                                    >
+                                        <div
+                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
+                                        >
+                                            <div
+                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
+                                            >
+                                                <img
+                                                    alt="Midone - HTML Admin Template"
+                                                    src="dist/images/profile-9.jpg"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
+                                        >
+                                            <div class="flex items-center">
+                                                <div class="font-medium">
+                                                    Tom Hanks
+                                                </div>
+                                                <div
+                                                    class="text-xs text-slate-500 ml-auto"
+                                                >
+                                                    07:00 PM
+                                                </div>
+                                            </div>
+                                            <div class="text-slate-500 mt-1">
+                                                Has joined the team
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="intro-x relative flex items-center mb-3"
+                                    >
+                                        <div
+                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
+                                        >
+                                            <div
+                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
+                                            >
+                                                <img
+                                                    alt="Midone - HTML Admin Template"
+                                                    src="dist/images/profile-2.jpg"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
+                                        >
+                                            <div class="flex items-center">
+                                                <div class="font-medium">
+                                                    Kevin Spacey
+                                                </div>
+                                                <div
+                                                    class="text-xs text-slate-500 ml-auto"
+                                                >
+                                                    07:00 PM
+                                                </div>
+                                            </div>
+                                            <div class="text-slate-500">
+                                                <div class="mt-1">
+                                                    Added 3 new photos
+                                                </div>
+                                                <div class="flex mt-2">
+                                                    <div
+                                                        class="tooltip w-8 h-8 image-fit mr-1 zoom-in"
+                                                        title="Samsung Galaxy S20 Ultra"
+                                                    >
+                                                        <img
+                                                            alt="Midone - HTML Admin Template"
+                                                            class="rounded-md border border-white"
+                                                            src="dist/images/preview-14.jpg"
+                                                        />
+                                                    </div>
+                                                    <div
+                                                        class="tooltip w-8 h-8 image-fit mr-1 zoom-in"
+                                                        title="Sony A7 III"
+                                                    >
+                                                        <img
+                                                            alt="Midone - HTML Admin Template"
+                                                            class="rounded-md border border-white"
+                                                            src="dist/images/preview-6.jpg"
+                                                        />
+                                                    </div>
+                                                    <div
+                                                        class="tooltip w-8 h-8 image-fit mr-1 zoom-in"
+                                                        title="Nike Tanjun"
+                                                    >
+                                                        <img
+                                                            alt="Midone - HTML Admin Template"
+                                                            class="rounded-md border border-white"
+                                                            src="dist/images/preview-3.jpg"
+                                                        />
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="intro-x text-slate-500 text-xs text-center my-4"
+                                    >
+                                        12 November
+                                    </div>
+                                    <div
+                                        class="intro-x relative flex items-center mb-3"
+                                    >
+                                        <div
+                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
+                                        >
+                                            <div
+                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
+                                            >
+                                                <img
+                                                    alt="Midone - HTML Admin Template"
+                                                    src="dist/images/profile-9.jpg"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
+                                        >
+                                            <div class="flex items-center">
+                                                <div class="font-medium">
+                                                    Denzel Washington
+                                                </div>
+                                                <div
+                                                    class="text-xs text-slate-500 ml-auto"
+                                                >
+                                                    07:00 PM
+                                                </div>
+                                            </div>
+                                            <div class="text-slate-500 mt-1">
+                                                Has changed
+                                                <a class="text-primary" href=""
+                                                    >Oppo Find X2 Pro</a
+                                                >
+                                                price and description
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="intro-x relative flex items-center mb-3"
+                                    >
+                                        <div
+                                            class="before:block before:absolute before:w-20 before:h-px before:bg-slate-200 before:dark:bg-darkmode-400 before:mt-5 before:ml-5"
+                                        >
+                                            <div
+                                                class="w-10 h-10 flex-none image-fit rounded-full overflow-hidden"
+                                            >
+                                                <img
+                                                    alt="Midone - HTML Admin Template"
+                                                    src="dist/images/profile-14.jpg"
+                                                />
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="box px-5 py-3 ml-4 flex-1 zoom-in"
+                                        >
+                                            <div class="flex items-center">
+                                                <div class="font-medium">
+                                                    Angelina Jolie
+                                                </div>
+                                                <div
+                                                    class="text-xs text-slate-500 ml-auto"
+                                                >
+                                                    07:00 PM
+                                                </div>
+                                            </div>
+                                            <div class="text-slate-500 mt-1">
+                                                Has changed
+                                                <a class="text-primary" href=""
+                                                    >Sony A7 III</a
+                                                >
+                                                description
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- END: Recent Activities -->
                             <!-- BEGIN: Transactions -->
-                            <!-- <div
+                            <div
                                 class="col-span-12 md:col-span-6 xl:col-span-4 2xl:col-span-12 mt-3"
                             >
                                 <div class="intro-x flex items-center h-10">
@@ -3297,10 +3042,10 @@
                                         >View More</a
                                     >
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- END: Transactions -->
                             <!-- BEGIN: Schedules -->
-                            <!-- <div
+                            <div
                                 class="col-span-12 md:col-span-6 xl:col-span-4 2xl:col-span-12 xl:col-start-1 xl:row-start-2 2xl:col-start-auto 2xl:row-start-auto mt-3"
                             >
                                 <div class="intro-x flex items-center h-10">
@@ -3617,7 +3362,7 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
                             <!-- END: Schedules -->
                         </div>
                     </div>
@@ -3656,14 +3401,6 @@ export default {
     data() {
         return {
             logo: "/img/library.png",
-            pic1: "/img/01.jpg",
-            pic2: "/img/02.jpg",
-            pic3: "/img/03.jpg",
-            pic4: "/img/04.jpg",
-            pictu1: "/img/001.jpg",
-            pictu2: "/img/002.jpg",
-            pictu3: "/img/003.jpg",
-            pictu4: "/img/004.jpg",
             isDarkMode: false,
             showWelcome: true,
         };

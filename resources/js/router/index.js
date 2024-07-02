@@ -2,6 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import Welcome from "../components/Welcome.vue";
 import Home from "../components/Home.vue";
 import Dashboard from "../components/Dashboard.vue";
+import Original from "../components/Original.vue"
 
 import store from "../store";
 
@@ -32,6 +33,14 @@ const routes = [
             },
         ],
     },
+    {
+        path: "/original",
+        name: "original",
+        component: Original,
+        meta: {
+            guard: "auth",
+        },
+    }
 ];
 
 const router = createRouter({
