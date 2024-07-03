@@ -1519,35 +1519,34 @@
                                     <option value="yearly">รายปี</option>
                                 </select>
                             </div>
-                            <div class="flex justify-center">
-                                <div class="h-auto w-full">
-                                    <canvas
-                                        class=""
-                                        ref="reportBookOne"
-                                    ></canvas>
-                                </div>
-                            </div>
                             <div class="report-box-2 intro-y mt-12 sm:mt-5">
                                 <div class="box sm:flex">
                                     <div
                                         class="px-8 py-4 flex flex-col justify-center flex-1"
                                     >
+                                        <div class="flex justify-center">
+                                            <div class="h-auto w-full">
+                                                <canvas
+                                                    class=""
+                                                    ref="reportBookOne"
+                                                ></canvas>
+                                            </div>
+                                        </div>
                                         <div
-                                            class="relative text-3xl font-medium mt-4"
+                                            class="relative text-3xl font-medium mt-12"
                                         >
                                             <box-icon
                                                 name="book"
-                                                size="sm"
+                                                size="md"
                                                 color="#f59e0b"
                                             ></box-icon>
                                             <span
                                                 class="text-sm text-gray-400 pl-2"
-                                                >จำนวน</span
+                                                >รายวัน</span
                                             >
-                                            <span class="text-md px-2"
-                                                >197</span>
+                                            197
                                             <span class="text-sm text-gray-400"
-                                                >รายการยืม</span
+                                                >รายการ</span
                                             >
                                         </div>
                                         <!-- <div
@@ -1561,10 +1560,10 @@
                                             ></i>
                                         </div> -->
                                         <div class="mt-4 text-slate-500">
-                                            # ข้อมูล ณ วันที่ 10 มิถุนายน 2567
+                                            ข้อมูล ณ วันที่ 10 มิถุนายน 2567
                                         </div>
-                                        <!-- <button
-                                            class="btn btn-outline-secondary relative justify-start rounded-full mt-4"
+                                        <button
+                                            class="btn btn-outline-secondary relative justify-start rounded-full mt-12"
                                         >
                                             Download Reports
                                             <span
@@ -1575,91 +1574,104 @@
                                                     color="#cbd5e1"
                                                 ></box-icon>
                                             </span>
-                                        </button> -->
+                                        </button>
                                     </div>
                                     <div
-                                        class="px-8 py-4 flex flex-col justify-center flex-1 border-t sm:border-t-0 sm:border-l border-slate-200 dark:border-darkmode-300 border-dashed"
+                                        class="px-8 py-12 flex flex-col justify-center flex-1 border-t sm:border-t-0 sm:border-l border-slate-200 dark:border-darkmode-300 border-dashed"
                                     >
                                         <div class="text-slate-500 text-md">
-                                            แยกตามประเภทสมาชิก
+                                            ปริญญาตรี
                                         </div>
                                         <div class="mt-1.5 flex items-center">
                                             <div class="text-base">
-                                                421
+                                                20
                                                 <span
                                                     class="text-xs text-gray-400"
-                                                    >รายการ : </span
+                                                    >รายการ</span
                                                 >
                                             </div>
-                                            <div
+                                            <!-- <div
                                                 class="text-danger flex text-xs font-medium tooltip cursor-pointer ml-2"
                                                 title="2% Lower than last month"
                                             >
-                                                ปริญญาตรี
+                                                2%
                                                 <i
                                                     data-lucide="chevron-down"
                                                     class="w-4 h-4 ml-0.5"
                                                 ></i>
-                                            </div>
+                                            </div> -->
+                                        </div>
+                                        <div
+                                            class="text-slate-500 text-md mt-5"
+                                        >
+                                            ปริญญาโท
                                         </div>
                                         <div class="mt-1.5 flex items-center">
                                             <div class="text-base">
-                                                2
+                                                9
                                                 <span
                                                     class="text-xs text-gray-400"
-                                                    >รายการ :</span
+                                                    >รายการ</span
                                                 >
                                             </div>
-                                            <div
-                                                class="text-danger flex text-xs font-medium tooltip cursor-pointer ml-2"
-                                                title="2% Lower than last month"
-                                            >
-                                                ปริญญาเอก
-                                                <i
-                                                    data-lucide="chevron-down"
-                                                    class="w-4 h-4 ml-0.5"
-                                                ></i>
-                                            </div>
+                                        </div>
+                                        <div
+                                            class="text-slate-500 text-md mt-5"
+                                        >
+                                            บุคลากรสายวิชาการ
                                         </div>
                                         <div class="mt-1.5 flex items-center">
                                             <div class="text-base">
-                                                2
+                                                4
                                                 <span
                                                     class="text-xs text-gray-400"
-                                                    >รายการ : </span
+                                                    >รายการ</span
                                                 >
                                             </div>
-                                            <div
-                                                class="text-danger flex text-xs font-medium tooltip cursor-pointer ml-2"
-                                                title="2% Lower than last month"
-                                            >
-                                                บุคลากรสายวิชาการ
-                                                <i
-                                                    data-lucide="chevron-down"
-                                                    class="w-4 h-4 ml-0.5"
-                                                ></i>
-                                            </div>
+                                        </div>
+                                        <div
+                                            class="text-slate-500 text-md mt-5"
+                                        >
+                                            บุคลากรสายสนับสนุน
                                         </div>
                                         <div class="mt-1.5 flex items-center">
                                             <div class="text-base">
                                                 3
                                                 <span
                                                     class="text-xs text-gray-400"
-                                                    >รายการ : </span
+                                                    >รายการ</span
                                                 >
                                             </div>
-                                            <div
-                                                class="text-danger flex text-xs font-medium tooltip cursor-pointer ml-2"
-                                                title="2% Lower than last month"
-                                            >
-                                                บุคลากรสายสนับสนุน
-                                                <i
-                                                    data-lucide="chevron-down"
-                                                    class="w-4 h-4 ml-0.5"
-                                                ></i>
+                                        </div>
+                                        <div
+                                            class="text-slate-500 text-md mt-5"
+                                        >
+                                            หนังสือทั่วไป (General Books)
+                                        </div>
+                                        <div class="mt-1.5 flex items-center">
+                                            <div class="text-base">
+                                                19
+                                                <span
+                                                    class="text-xs text-gray-400"
+                                                    >รายการ</span
+                                                >
                                             </div>
                                         </div>
-                                    </div>                                          
+                                        <div
+                                            class="text-slate-500 text-md mt-5"
+                                        >
+                                            วิจัย (Research)
+                                        </div>
+                                        <div class="mt-1.5 flex items-center">
+                                            <div class="text-base">
+                                                1
+                                                <span
+                                                    class="text-xs text-gray-400"
+                                                    >รายการ</span
+                                                >
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1854,7 +1866,7 @@
                                 class="intro-y overflow-auto lg:overflow-visible mt-8 sm:mt-0"
                             >
                                 <table class="table table-report sm:mt-2">
-                                    <thead class="bg-white opacity-80 rounded-full shadow-md">
+                                    <thead>
                                         <tr>
                                             <th class="whitespace-nowrap">
                                                 IMAGES
@@ -3854,11 +3866,19 @@ export default {
             let myBookTwo = new Chart(ctx, {
                 type: "bar",
                 data: {
-                    labels: ["01", "02", "03", "04", "05", "06", "07"],
+                    labels: [
+                        "01",
+                        "02",
+                        "03",
+                        "04",
+                        "05",
+                        "06",
+                        "07",
+                    ],
                     datasets: [
                         {
                             label: "สถิติการยืม รายเดือน / 2567",
-                            data: [11401, 10765, 10400, 2623, 700, 1916, 1980],
+                            data: [11401, 10765, 10400, 2623, 70, 1916],
                             backgroundColor: [
                                 "rgba(255, 99, 132, 0.2)",
                                 "rgba(255, 159, 64, 0.6)",
@@ -3877,7 +3897,7 @@ export default {
                                 "rgb(153, 102, 255)",
                                 "rgb(201, 203, 207)",
                             ],
-                            borderWidth: 2,
+                            borderWidth: 3,
                             borderColor: "#fff",
                         },
                     ],
